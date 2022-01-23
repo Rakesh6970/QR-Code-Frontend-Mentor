@@ -6,12 +6,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screencapture-virag-ky-github-io-QR-Code-Frontend-Mentor-2022-01-23-12_07_24.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://virag-ky.github.io/QR-Code-Frontend-Mentor/
 
 ### Built with
 
