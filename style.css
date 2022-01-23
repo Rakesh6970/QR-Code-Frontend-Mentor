@@ -10,51 +10,52 @@ body {
   font-family: Outfit;
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.container {
+main {
   background-color: hsl(0, 0%, 100%);
-  width: 580px;
-  margin: 160px auto 0 auto;
+  width: 350px;
   border-radius: 5%;
   text-align: center;
-  padding: 25px;
+  padding: 15px;
+  height: 60%;
 }
 img {
+  width: 350px;
   border-radius: 5%;
   display: block;
   margin: auto;
 }
-p {
-  width: 85%;
-  margin: auto;
-}
-.first-sentence {
+h1 {
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  font-size: 42px;
-  margin-top: 30px;
+  font-size: 28px;
+  margin: 30px auto 0 auto;
+  width: 90%;
 }
-.second-sentence {
+main p {
+  width: 90%;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  font-size: 18px;
+  margin: 20px auto 50px auto;
 }
 @media only screen and (max-width: 600px) {
   img {
-    width: 280px;
-  }
-  .container {
     width: 300px;
-    margin: 100px auto 0 auto;
-    padding: 15px 10px;
   }
-  .first-sentence {
-    font-size: 22px;
+  main {
+    width: 300px;
   }
-  .second-sentence {
-    font-size: 15px;
+  h1 {
+    font-size: 24px;
+  }
+  main p {
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .attribution {
