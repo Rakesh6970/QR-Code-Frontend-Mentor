@@ -41,3 +41,23 @@ p {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+@media only screen and (max-width: 600px) {
+  img {
+    width: 280px;
+  }
+  .container {
+    width: 300px;
+    margin: 100px auto 0 auto;
+    padding: 15px 10px;
+  }
+  .first-sentence {
+    font-size: 22px;
+  }
+  .second-sentence {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .attribution {
+    font-size: 10px;
+  }
+}
